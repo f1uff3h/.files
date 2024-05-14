@@ -1,0 +1,63 @@
+{
+    "catppuccin.accentColor": "flamingo",
+    "catppuccin.workbenchMode": "flat",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.fontFamily": "'FiraMono Nerd Font Mono'",
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": true,
+        "plaintext": true,
+        "scminput": false
+    },
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.folders.color": "#F2CDCD",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.opacity": 0.7,
+    "telemetry.telemetryLevel": "off",
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultProfile.linux": "nu",
+    "terminal.integrated.fontFamily": "FiraMono Nerd Font Mono",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "nu": {
+            "path": "/home/peco/.cargo/bin/nu"
+        }
+    },
+    "terminal.integrated.rightClickBehavior": "copyPaste",
+    "terminal.sourceControlRepositoriesKind": "external",
+    "vim.handleKeys": {
+        "<S-A>": false,
+        "<C-a>": false,
+        "<C-b>": false,
+        "<C-c>": false,
+        "<C-d>": true,
+        "<C-i>": false,
+        "<C-k>": false,
+        "<C-s>": false,
+        "<C-x>": false,
+        "<C-z>": false,
+        "<C-j>": false,
+    },
+    "window.autoDetectColorScheme": true,
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte",
+    "window.zoomLevel": 1,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "zenMode.hideLineNumbers": false
+}
