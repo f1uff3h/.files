@@ -1,3 +1,5 @@
+shell = "nu"
+
 [window]
 decorations = "None"
 opacity = 0.7

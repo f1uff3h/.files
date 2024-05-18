@@ -91,7 +91,7 @@ immutability=1
 plugin=com.github.boraerciyas.controlcentre
 
 [Containments][168][Applets][245][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 popupHeight=450
 popupWidth=360
 
@@ -100,7 +100,7 @@ immutability=1
 plugin=org.kde.plasma.marginsseparator
 
 [Containments][168][General]
-AppletOrder=245;247;210;198;193;194;199;204;173
+AppletOrder=247;210;198;193;194;199;204;173;245
 
 [Containments][174]
 activityId=
