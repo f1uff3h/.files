@@ -1,0 +1,5 @@
+[Libinput][2][10][TPPS/2 IBM TrackPoint]
+NaturalScroll=true
+
+[Libinput][2][7][SynPS/2 Synaptics TouchPad]
+NaturalScroll=true

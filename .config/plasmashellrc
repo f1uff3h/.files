@@ -31,7 +31,7 @@ detailViewIconSize=16
 iconViewIconSize=64
 
 [PlasmaTransientsConfig]
-PreloadWeight=34
+PreloadWeight=42
 
 [PlasmaViews][Panel 105]
 alignment=132
@@ -62,7 +62,7 @@ floating=1
 panelOpacity=0
 
 [PlasmaViews][Panel 168][Defaults]
-thickness=30
+thickness=28
 
 [PlasmaViews][Panel 195]
 floating=1
@@ -82,6 +82,12 @@ panelOpacity=2
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=28
+
+[PlasmaViews][Panel 221]
+floating=1
+
+[PlasmaViews][Panel 221][Defaults]
+thickness=40
 
 [PlasmaViews][Panel 24]
 floating=0
