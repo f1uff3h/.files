@@ -2,6 +2,7 @@
 DimDisplayWhenIdle=false
 
 [AC][SuspendAndShutdown]
+AutoSuspendAction=0
 LidAction=64
 SleepMode=3
 
@@ -16,5 +17,6 @@ SleepMode=3
 BatteryLowLevel=15
 
 [LowBattery][SuspendAndShutdown]
+AutoSuspendAction=2
 LidAction=2
 SleepMode=3

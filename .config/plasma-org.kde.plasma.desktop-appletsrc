@@ -99,8 +99,16 @@ popupWidth=360
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
+[Containments][168][Applets][248]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][168][Applets][248][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
 [Containments][168][General]
-AppletOrder=247;210;198;193;194;199;204;173;245
+AppletOrder=247;210;198;193;248;194;199;204;173;245
 
 [Containments][174]
 activityId=
@@ -197,7 +205,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][174][Applets][190]
 immutability=1
@@ -239,8 +247,9 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][174][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,chrome_status_icon_1
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
+shownItems=chrome_status_icon_1
 
 [Containments][197]
 activityId=
@@ -278,8 +287,8 @@ url=file:///home/peco/Downloads
 AppletOrder=171
 
 [Containments][212]
-ItemGeometries-1600x900=Applet-248:720,416,160,64,0;
-ItemGeometriesHorizontal=Applet-248:720,416,160,64,0;
+ItemGeometries-1600x900=
+ItemGeometriesHorizontal=
 activityId=0bb7edc8-e365-4a77-9a3a-b6268ce664cb
 formfactor=0
 immutability=1
@@ -287,10 +296,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][212][Applets][248]
-immutability=1
-plugin=org.kde.plasma.digitalclock
 
 [Containments][212][General]
 ToolBoxButtonState=topcenter
@@ -426,6 +431,12 @@ PreloadWeight=42
 [Containments][227][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
+
+[Containments168Appletsts][248][Configuration][Appearance]
+displayTimezoneFormat=FullText
+showDate=false
+showWeekNumbers=true
+use24hFormat=2
 
 [ScreenMapping]
 itemsOnDisabledScreens=
