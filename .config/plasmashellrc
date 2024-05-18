@@ -68,6 +68,7 @@ thickness=28
 floating=1
 
 [PlasmaViews][Panel 197]
+alignment=132
 floating=1
 panelLengthMode=1
 panelOpacity=2
