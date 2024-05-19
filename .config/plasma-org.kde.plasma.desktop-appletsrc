@@ -91,9 +91,12 @@ immutability=1
 plugin=com.github.boraerciyas.controlcentre
 
 [Containments][168][Applets][245][Configuration]
-PreloadWeight=80
+PreloadWeight=90
 popupHeight=450
 popupWidth=360
+
+[Containments][168][Applets][245][Configuration][Appearance]
+isDarkTheme=true
 
 [Containments][168][Applets][247]
 immutability=1
@@ -102,6 +105,11 @@ plugin=org.kde.plasma.marginsseparator
 [Containments][168][Applets][248]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][168][Applets][248][Configuration][Appearance]
+firstDayOfWeek=0
+showDate=false
+showWeekNumbers=true
 
 [Containments][168][Applets][248][Configuration][ConfigDialog]
 DialogHeight=480
@@ -247,7 +255,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][174][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,chrome_status_icon_1
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
 shownItems=chrome_status_icon_1
 
@@ -264,8 +272,12 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][197][Applets][171][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
 [Containments][197][Applets][171][Configuration][General]
-launchers=applications:Alacritty.desktop,applications:firefox.desktop,applications:brave-browser.desktop,preferred://browser,applications:waterfox.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:chromium.desktop,applications:freetube.desktop
 
 [Containments][197][Applets][201][Configuration]
 activityId=

@@ -18,6 +18,12 @@ MoveFactor=25
 Stiffness=1
 WobblynessLevel=4
 
+[ModifierOnlyShortcuts]
+Meta=org.kde.kglobalaccel,/component/kwin,org.kde.kglobalaccel.Component,invokeShortcut,Overview
+
+[NightColor]
+Active=true
+
 [Plugins]
 blurEnabled=true
 magiclampEnabled=true
@@ -31,12 +37,12 @@ padding=4
 [Tiling][f4b14d22-5e6d-5509-9bad-cf609963523c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Windows]
+RollOverDesktops=true
+
 [Xwayland]
 Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=S
 ButtonsOnRight=HIX
-
-[ModifierOnlyShortcuts]
-Meta=org.kde.kglobalaccel,/component/kwin,org.kde.kglobalaccel.Component,invokeShortcut,Overview

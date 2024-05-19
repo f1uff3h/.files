@@ -871,5 +871,10 @@ alias la = ls -la
 alias glog = git log --all --oneline --decorate --swap_graph
 alias gl = git log --all --oneline -n 4
 alias gd = git $"--git-dir=($env.HOME)/repos/.files" $"--work-tree=($env.HOME)"
+alias lt = sed -i 's/mocha/latte/' $"($env.HOME)/.config/alacritty/alacritty.toml"
+alias dt = sed -i 's/latte/mocha/' $"($env.HOME)/.config/alacritty/alacritty.toml"
+# alias rmswap = $"(fd -H .*.sw[p|o]$ $env.HOME | xargs rm -rf)"
+
+source ~/.zoxide.nu
 
 use ~/.cache/starship/init.nu
