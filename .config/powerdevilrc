@@ -1,6 +1,9 @@
 [AC][Display]
 DimDisplayWhenIdle=false
 
+[AC][Performance]
+PowerProfile=performance
+
 [AC][SuspendAndShutdown]
 AutoSuspendAction=0
 LidAction=64
@@ -8,13 +11,20 @@ SleepMode=3
 
 [Battery][Display]
 DimDisplayIdleTimeoutSec=300
-TurnOffDisplayIdleTimeoutSec=900
+TurnOffDisplayIdleTimeoutSec=600
+
+[Battery][Performance]
+PowerProfile=balanced
 
 [Battery][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=900
 SleepMode=3
 
 [BatteryManagement]
 BatteryLowLevel=15
+
+[LowBattery][Performance]
+PowerProfile=power-saver
 
 [LowBattery][SuspendAndShutdown]
 AutoSuspendAction=2
