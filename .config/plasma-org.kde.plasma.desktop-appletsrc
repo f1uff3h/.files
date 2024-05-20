@@ -14,6 +14,17 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][168][Applets][171]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][168][Applets][171][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][168][Applets][171][Configuration][General]
+launchers=applications:org.kde.dolphin.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:chromium.desktop,applications:freetube.desktop
+
 [Containments][168][Applets][173]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -91,7 +102,7 @@ immutability=1
 plugin=com.github.boraerciyas.controlcentre
 
 [Containments][168][Applets][245][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 popupHeight=450
 popupWidth=360
 
@@ -107,8 +118,8 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][168][Applets][248][Configuration][Appearance]
+dateFormat=isoDate
 firstDayOfWeek=0
-showDate=false
 showWeekNumbers=true
 
 [Containments][168][Applets][248][Configuration][ConfigDialog]
@@ -116,7 +127,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][168][General]
-AppletOrder=247;210;198;193;248;194;199;204;173;245
+AppletOrder=247;210;198;193;171;194;199;204;173;245;248
 
 [Containments][174]
 activityId=
@@ -258,45 +269,6 @@ DialogWidth=640
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
 shownItems=chrome_status_icon_1
-
-[Containments][197]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=0
-location=4
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
-
-[Containments][197][Applets][171]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][197][Applets][171][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
-
-[Containments][197][Applets][171][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:chromium.desktop,applications:freetube.desktop
-
-[Containments][197][Applets][201][Configuration]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][197][Applets][201][Configuration][ConfigDialog]
-DialogHeight=570
-DialogWidth=760
-
-[Containments][197][Applets][201][Configuration][General]
-url=file:///home/peco/Downloads
-
-[Containments][197][General]
-AppletOrder=171
 
 [Containments][212]
 ItemGeometries-1600x900=
