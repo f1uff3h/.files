@@ -109,10 +109,6 @@ popupWidth=360
 [Containments][168][Applets][245][Configuration][Appearance]
 isDarkTheme=true
 
-[Containments][168][Applets][247]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
 [Containments][168][Applets][248]
 immutability=1
 plugin=org.kde.plasma.digitalclock
@@ -127,7 +123,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][168][General]
-AppletOrder=247;210;198;193;171;194;199;204;173;245;248
+AppletOrder=210;198;193;171;194;199;204;173;245;248
 
 [Containments][174]
 activityId=
@@ -224,7 +220,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][174][Applets][190]
 immutability=1
@@ -238,14 +234,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][174][Applets][191][Configuration]
-PreloadWeight=5
+PreloadWeight=2
 
 [Containments][174][Applets][192]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][174][Applets][192][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][174][Applets][208]
 immutability=1
@@ -405,9 +401,16 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][227][Applets][244][Configuration]
 PreloadWeight=42
 
+[Containments][227][Applets][249]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
 [Containments][227][Applets][250]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][227][Applets][250][Configuration]
+PreloadWeight=42
 
 [Containments][227][Configuration]
 PreloadWeight=42
