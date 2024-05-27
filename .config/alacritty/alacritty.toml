@@ -1,4 +1,4 @@
-import = [ "~/.config/alacritty/catppuccin-latte.toml" ]
+import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
 shell = "nu"
 
 [env]

@@ -1,7 +1,14 @@
+[ContextMenu]
+ShowCopyMoveMenu=true
+
 [General]
 AutoExpandFolders=true
 BrowseThroughArchives=true
+CloseActiveSplitView=false
+EditableUrl=true
+ShowFullPath=true
 ShowFullPathInTitlebar=true
+UseTabForSwitchingSplitView=true
 Version=202
 ViewPropsTimestamp=2024,5,18,13,50,49.335
 
