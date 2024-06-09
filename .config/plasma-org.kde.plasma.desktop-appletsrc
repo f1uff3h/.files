@@ -23,7 +23,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][168][Applets][171][Configuration][General]
-launchers=applications:org.kde.dolphin.desktop,applications:Alacritty.desktop,applications:firefox.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:chromium.desktop,applications:freetube.desktop
+launchers=applications:Alacritty.desktop,applications:org.kde.dolphin.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:freetube.desktop
 
 [Containments][168][Applets][173]
 immutability=1
@@ -91,10 +91,10 @@ DialogWidth=640
 [Containments][168][Applets][210][Configuration][General]
 boldFont=false
 filterActivityInfo=false
-iconFillThickness=false
 iconSize=38
 lengthFirstMargin=1
 lengthLastMargin=1
+placeHolder=ArchLinux
 showIcon=false
 
 [Containments][168][Applets][248]
@@ -102,8 +102,10 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][168][Applets][248][Configuration][Appearance]
+dateDisplayFormat=BesideTime
 dateFormat=isoDate
 firstDayOfWeek=0
+showDate=false
 showWeekNumbers=true
 
 [Containments][168][Applets][248][Configuration][ConfigDialog]
@@ -119,8 +121,11 @@ PreloadWeight=100
 popupHeight=450
 popupWidth=360
 
+[Containments][168][Applets][251][Configuration][Appearance]
+isDarkTheme=true
+
 [Containments][168][General]
-AppletOrder=210;198;193;171;194;199;204;173;248;251
+AppletOrder=210;198;193;171;194;199;204;173;251;248
 
 [Containments][174]
 activityId=
@@ -171,7 +176,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][174][Applets][181][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][174][Applets][181][Configuration][ConfigDialog]
 DialogHeight=480
@@ -199,7 +204,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][174][Applets][184][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 
 [Containments][174][Applets][185]
 immutability=1
@@ -217,7 +222,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=12
+PreloadWeight=0
 
 [Containments][174][Applets][190]
 immutability=1
@@ -231,7 +236,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][174][Applets][191][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][174][Applets][192]
 immutability=1
@@ -410,6 +415,11 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][249][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=242
+ToolBoxButtonY=44
 
 [Containments][8][Applets][23][Configuration]
 PreloadWeight=42
