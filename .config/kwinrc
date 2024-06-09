@@ -23,6 +23,8 @@ Meta=org.kde.kglobalaccel,/component/kwin,org.kde.kglobalaccel.Component,invokeS
 
 [NightColor]
 Active=true
+LatitudeAuto=46.77
+LongitudeAuto=23.59
 
 [Plugins]
 blurEnabled=true
