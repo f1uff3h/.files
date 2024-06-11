@@ -112,20 +112,20 @@ showWeekNumbers=true
 DialogHeight=480
 DialogWidth=640
 
-[Containments][168][Applets][251]
+[Containments][168][Applets][253]
 immutability=1
 plugin=com.github.boraerciyas.controlcentre
 
-[Containments][168][Applets][251][Configuration]
-PreloadWeight=100
+[Containments][168][Applets][253][Configuration]
+PreloadWeight=75
 popupHeight=450
 popupWidth=360
 
-[Containments][168][Applets][251][Configuration][Appearance]
+[Containments][168][Applets][253][Configuration][Appearance]
 isDarkTheme=true
 
 [Containments][168][General]
-AppletOrder=210;198;193;171;194;199;204;173;251;248
+AppletOrder=210;198;193;171;194;199;204;173;253;248
 
 [Containments][174]
 activityId=
@@ -222,7 +222,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][174][Applets][190]
 immutability=1
@@ -405,10 +405,10 @@ PreloadWeight=42
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 
-[Containments][249]
-ItemGeometries-1600x900=
+[Containments][252]
+ItemGeometries-1707x960=
 ItemGeometriesHorizontal=
-activityId=f4f06eeb-8e07-46dc-aece-dd687ed35fef
+activityId=647ff4b4-40a8-4573-ba48-b8116c91cef1
 formfactor=0
 immutability=1
 lastScreen=0
@@ -416,10 +416,10 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][249][General]
+[Containments][252][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=242
-ToolBoxButtonY=44
+ToolBoxButtonX=296
+ToolBoxButtonY=28
 
 [Containments][8][Applets][23][Configuration]
 PreloadWeight=42

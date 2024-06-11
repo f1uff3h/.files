@@ -6,7 +6,6 @@ PowerProfile=performance
 
 [AC][SuspendAndShutdown]
 AutoSuspendAction=0
-LidAction=64
 SleepMode=3
 
 [Battery][Display]
