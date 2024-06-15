@@ -101,6 +101,11 @@ showIcon=false
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][168][Applets][248][Configuration]
+PreloadWeight=100
+popupHeight=400
+popupWidth=352
+
 [Containments][168][Applets][248][Configuration][Appearance]
 dateDisplayFormat=BesideTime
 dateFormat=isoDate
@@ -117,15 +122,44 @@ immutability=1
 plugin=com.github.boraerciyas.controlcentre
 
 [Containments][168][Applets][253][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 popupHeight=450
 popupWidth=360
 
-[Containments][168][Applets][253][Configuration][Appearance]
-isDarkTheme=true
+[Containments][168][Applets][255]
+immutability=1
+plugin=org.kde.plasma.lock_logout
+
+[Containments][168][Applets][255][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][168][Applets][256]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][168][Applets][256][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][168][Applets][257]
+immutability=1
+plugin=ChatAI-Plasmoid
+
+[Containments][168][Applets][257][Configuration]
+PreloadWeight=100
+popupHeight=1512
+popupWidth=1132
+
+[Containments][168][Applets][257][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][168][Applets][257][Configuration][General]
+favIcon=https://duckduckgo.com/favicon.ico
 
 [Containments][168][General]
-AppletOrder=210;198;193;171;194;199;204;173;253;248
+AppletOrder=255;256;210;198;193;171;194;199;204;173;257;253;248
 
 [Containments][174]
 activityId=
@@ -134,8 +168,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=456
-popupWidth=456
+popupHeight=384
+popupWidth=384
 wallpaperplugin=org.kde.image
 
 [Containments][174][Applets][175]
@@ -222,7 +256,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][174][Applets][190]
 immutability=1
@@ -236,7 +270,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][174][Applets][191][Configuration]
-PreloadWeight=0
+PreloadWeight=9
 
 [Containments][174][Applets][192]
 immutability=1
@@ -407,6 +441,7 @@ knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.bright
 
 [Containments][252]
 ItemGeometries-1707x960=
+ItemGeometries-2560x1600=
 ItemGeometriesHorizontal=
 activityId=647ff4b4-40a8-4573-ba48-b8116c91cef1
 formfactor=0
@@ -418,8 +453,17 @@ wallpaperplugin=org.kde.image
 
 [Containments][252][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=296
-ToolBoxButtonY=28
+ToolBoxButtonX=722
+ToolBoxButtonY=44
+
+[Containments][254]
+activityId=647ff4b4-40a8-4573-ba48-b8116c91cef1
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][23][Configuration]
 PreloadWeight=42
@@ -432,6 +476,18 @@ displayTimezoneFormat=FullText
 showDate=false
 showWeekNumbers=true
 use24hFormat=2
+
+[Containments168Appletsts][255][Configuration][General]
+show_lockScreen=false
+show_requestReboot=true
+show_suspendToRam=true
+
+[Containments168Appletsts][257][Configuration][General]
+favIcon=https://cdn.oaistatic.com/_next/static/media/favicon-32x32.630a2b99.png
+hideGoToButton=true
+hideHeader=true
+showChatGPT=false
+url=https://chat.openai.com/chat
 
 [ScreenMapping]
 itemsOnDisabledScreens=

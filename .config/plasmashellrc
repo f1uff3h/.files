@@ -3,10 +3,10 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Applets][204][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 configMigrated=true
-popupHeight=337
-popupWidth=278
+popupHeight=269
+popupWidth=272
 
 [Applets][204][Configuration][Appearance]
 showPressureInTooltip=true
