@@ -39,6 +39,9 @@ padding=4
 [Tiling][9dd91f68-8f2c-5a84-b725-eca77adaf447]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][eb880509-483d-5ffe-a0b8-84417d9860b4]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.792578125},{"width":0.20742187499999998}]}
+
 [Tiling][f4b14d22-5e6d-5509-9bad-cf609963523c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -49,7 +52,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 RollOverDesktops=true
 
 [Xwayland]
-Scale=2.25
+Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=S
