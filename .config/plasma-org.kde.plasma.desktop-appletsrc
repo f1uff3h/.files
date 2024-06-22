@@ -23,6 +23,7 @@ DialogHeight=480
 DialogWidth=640
 
 [Containments][168][Applets][171][Configuration][General]
+iconSpacing=0
 launchers=applications:Alacritty.desktop,applications:org.kde.dolphin.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:freetube.desktop
 
 [Containments][168][Applets][173]
@@ -54,10 +55,10 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][168][Applets][204][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 configMigrated=true
-popupHeight=337
-popupWidth=278
+popupHeight=269
+popupWidth=272
 
 [Containments][168][Applets][204][Configuration][Appearance]
 showPressureInTooltip=true
@@ -117,15 +118,6 @@ showWeekNumbers=true
 DialogHeight=480
 DialogWidth=640
 
-[Containments][168][Applets][253]
-immutability=1
-plugin=com.github.boraerciyas.controlcentre
-
-[Containments][168][Applets][253][Configuration]
-PreloadWeight=100
-popupHeight=450
-popupWidth=360
-
 [Containments][168][Applets][255]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -133,6 +125,11 @@ plugin=org.kde.plasma.lock_logout
 [Containments][168][Applets][255][Configuration][ConfigDialog]
 DialogHeight=480
 DialogWidth=640
+
+[Containments][168][Applets][255][Configuration][General]
+show_lockScreen=false
+show_requestReboot=true
+show_suspendToRam=true
 
 [Containments][168][Applets][256]
 immutability=1
@@ -142,24 +139,25 @@ plugin=org.kde.plasma.marginsseparator
 DialogHeight=480
 DialogWidth=640
 
-[Containments][168][Applets][257]
+[Containments][168][Applets][260]
+immutability=1
+plugin=com.samirgaire10.perplexityAi-plasma6
+
+[Containments][168][Applets][260][Configuration]
+PreloadWeight=70
+popupHeight=904
+popupWidth=640
+
+[Containments][168][Applets][260][Configuration][General]
+favIcon=https://www.perplexity.ai/favicon.ico
+url=https://www.perplexity.ai/search/what-is-kconfupdaterc-BSXxWqHEQZ.5EYu6FCOeYg
+
+[Containments][168][Applets][261]
 immutability=1
 plugin=ChatAI-Plasmoid
 
-[Containments][168][Applets][257][Configuration]
-PreloadWeight=100
-popupHeight=1512
-popupWidth=1132
-
-[Containments][168][Applets][257][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
-
-[Containments][168][Applets][257][Configuration][General]
-favIcon=https://duckduckgo.com/favicon.ico
-
 [Containments][168][General]
-AppletOrder=255;256;210;198;193;171;194;199;204;173;257;253;248
+AppletOrder=255;256;210;198;193;171;194;199;204;173;261;260;248
 
 [Containments][174]
 activityId=
@@ -204,6 +202,9 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][174][Applets][180]
 immutability=1
 plugin=org.kde.kscreen
+
+[Containments][174][Applets][180][Configuration]
+PreloadWeight=55
 
 [Containments][174][Applets][181]
 immutability=1
@@ -256,7 +257,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][174][Applets][190]
 immutability=1
@@ -300,7 +301,7 @@ DialogWidth=640
 [Containments][174][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
-shownItems=chrome_status_icon_1
+shownItems=chrome_status_icon_1,org.kde.plasma.battery
 
 [Containments][227]
 activityId=
@@ -439,28 +440,13 @@ PreloadWeight=42
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 
-[Containments][252]
-ItemGeometries-1707x960=
+[Containments][258]
 ItemGeometries-2560x1600=
 ItemGeometriesHorizontal=
-activityId=647ff4b4-40a8-4573-ba48-b8116c91cef1
+activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
 formfactor=0
 immutability=1
 lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][252][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=722
-ToolBoxButtonY=44
-
-[Containments][254]
-activityId=647ff4b4-40a8-4573-ba48-b8116c91cef1
-formfactor=0
-immutability=1
-lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
@@ -469,6 +455,18 @@ wallpaperplugin=org.kde.image
 PreloadWeight=42
 
 [Containments][8][Applets][24][Configuration]
+PreloadWeight=42
+
+[Containments][8][Applets][25][Configuration]
+PreloadWeight=34
+
+[Containments][8][Applets][26][Configuration]
+PreloadWeight=34
+
+[Containments][9][Applets][26][Configuration]
+PreloadWeight=42
+
+[Containments][9][Applets][27][Configuration]
 PreloadWeight=42
 
 [Containments168Appletsts][248][Configuration][Appearance]
@@ -488,6 +486,9 @@ hideGoToButton=true
 hideHeader=true
 showChatGPT=false
 url=https://chat.openai.com/chat
+
+[Containments168Appletsts][260][Configuration][General]
+favIcon=https://www.perplexity.ai/favicon.ico
 
 [ScreenMapping]
 itemsOnDisabledScreens=

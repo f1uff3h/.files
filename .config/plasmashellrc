@@ -30,6 +30,9 @@ Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/,file:$HOM
 detailViewIconSize=16
 iconViewIconSize=64
 
+[PlasmaTransientsConfig]
+PreloadWeight=2
+
 [PlasmaViews][Panel 105]
 alignment=132
 floating=1
@@ -59,7 +62,7 @@ floating=1
 panelOpacity=0
 
 [PlasmaViews][Panel 168][Defaults]
-thickness=28
+thickness=32
 
 [PlasmaViews][Panel 195]
 floating=1
