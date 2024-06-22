@@ -36,6 +36,12 @@ wobblywindowsEnabled=true
 [Tiling]
 padding=4
 
+[Tiling][65e1fbfb-d11b-5840-afed-bc91fc2c0abe]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][8be8235e-cd74-559b-99b2-62c355e7853b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
+
 [Tiling][9dd91f68-8f2c-5a84-b725-eca77adaf447]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -52,7 +58,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1
+Scale=2.25
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=S
