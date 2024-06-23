@@ -13,10 +13,9 @@ Number=5
 Rows=1
 
 [Effect-wobblywindows]
-Drag=97
-MoveFactor=25
-Stiffness=1
-WobblynessLevel=4
+Drag=90
+Stiffness=6
+WobblynessLevel=2
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.kglobalaccel,/component/kwin,org.kde.kglobalaccel.Component,invokeShortcut,Overview
@@ -40,7 +39,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][8be8235e-cd74-559b-99b2-62c355e7853b]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.5},{"width":0.5}]}
 
 [Tiling][9dd91f68-8f2c-5a84-b725-eca77adaf447]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -58,7 +57,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 RollOverDesktops=true
 
 [Xwayland]
-Scale=2.25
+Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=S
