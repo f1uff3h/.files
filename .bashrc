@@ -49,3 +49,6 @@ source /usr/share/doc/pkgfile/command-not-found.bash
 PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
+
+# Created by `pipx` on 2024-06-23 12:02:41
+export PATH="$PATH:/home/peco/.local/bin"

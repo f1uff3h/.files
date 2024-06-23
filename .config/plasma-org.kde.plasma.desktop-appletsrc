@@ -24,7 +24,7 @@ DialogWidth=640
 
 [Containments][168][Applets][171][Configuration][General]
 iconSpacing=0
-launchers=applications:Alacritty.desktop,applications:org.kde.dolphin.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:freetube.desktop
+launchers=applications:Alacritty.desktop,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:waterfox.desktop,applications:brave-browser.desktop,applications:freetube.desktop
 
 [Containments][168][Applets][173]
 immutability=1
@@ -55,7 +55,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][168][Applets][204][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 configMigrated=true
 popupHeight=269
 popupWidth=272
@@ -139,25 +139,41 @@ plugin=org.kde.plasma.marginsseparator
 DialogHeight=480
 DialogWidth=640
 
-[Containments][168][Applets][260]
-immutability=1
-plugin=com.samirgaire10.perplexityAi-plasma6
-
-[Containments][168][Applets][260][Configuration]
-PreloadWeight=70
-popupHeight=904
-popupWidth=640
-
-[Containments][168][Applets][260][Configuration][General]
-favIcon=https://www.perplexity.ai/favicon.ico
-url=https://www.perplexity.ai/search/what-is-kconfupdaterc-BSXxWqHEQZ.5EYu6FCOeYg
-
-[Containments][168][Applets][261]
+[Containments][168][Applets][264]
 immutability=1
 plugin=ChatAI-Plasmoid
 
+[Containments][168][Applets][265]
+immutability=1
+plugin=com.samirgaire10.perplexityAi-plasma6
+
+[Containments][168][Applets][265][Configuration]
+PreloadWeight=65
+popupHeight=1512
+popupWidth=640
+
+[Containments][168][Applets][265][Configuration][General]
+favIcon=https://www.perplexity.ai/favicon.ico
+url=https://www.perplexity.ai/search/pipx-install-asdf-7YKg8aFnRxyUF2Ex3bxFLA
+
+[Containments][168][Applets][267]
+immutability=1
+plugin=de.davidhi.ddcci-brightness
+
+[Containments][168][Applets][267][Configuration]
+PreloadWeight=80
+popupHeight=129
+popupWidth=457
+
+[Containments][168][Applets][267][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][168][Applets][267][Configuration][General]
+executable=ddcci_plasmoid_backend
+
 [Containments][168][General]
-AppletOrder=255;256;210;198;193;171;194;199;204;173;261;260;248
+AppletOrder=255;256;210;198;193;171;194;199;204;173;267;264;265;248
 
 [Containments][174]
 activityId=
@@ -204,7 +220,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][174][Applets][180][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][174][Applets][181]
 immutability=1
@@ -257,7 +273,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][174][Applets][190]
 immutability=1
@@ -271,7 +287,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][174][Applets][191][Configuration]
-PreloadWeight=9
+PreloadWeight=11
 
 [Containments][174][Applets][192]
 immutability=1
@@ -301,7 +317,7 @@ DialogWidth=640
 [Containments][174][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
-shownItems=chrome_status_icon_1,org.kde.plasma.battery
+shownItems=chrome_status_icon_1,org.kde.plasma.battery,org.kde.kscreen
 
 [Containments][227]
 activityId=
@@ -431,7 +447,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][227][Applets][250][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][227][Configuration]
 PreloadWeight=42
@@ -441,12 +457,36 @@ extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.bright
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 
 [Containments][258]
-ItemGeometries-2560x1600=
-ItemGeometriesHorizontal=
+ItemGeometries-1707x960=
+ItemGeometries-2560x1600=Applet-266:1664,128,656,256,0;
+ItemGeometriesHorizontal=Applet-266:1664,128,656,256,0;
 activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
 formfactor=0
 immutability=1
 lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][258][Applets][266]
+immutability=1
+plugin=com.github.prayag2.modernclock
+
+[Containments][258][Applets][266][Configuration][Appearance]
+day_font_size=80
+day_letter_spacing=22
+time_character=
+use_24_hour_format=true
+
+[Containments][258][Applets][266][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
+[Containments][262]
+activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
+formfactor=0
+immutability=1
+lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
@@ -489,6 +529,9 @@ url=https://chat.openai.com/chat
 
 [Containments168Appletsts][260][Configuration][General]
 favIcon=https://www.perplexity.ai/favicon.ico
+
+[Containments168Appletsts][265][Configuration][General]
+url=https://www.perplexity.ai/search/how-to-list-Z9iiiLZKR2.fPseaVSVxjw
 
 [ScreenMapping]
 itemsOnDisabledScreens=

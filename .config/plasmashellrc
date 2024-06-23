@@ -3,7 +3,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Applets][204][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 configMigrated=true
 popupHeight=269
 popupWidth=272
@@ -29,9 +29,6 @@ Recent Files[$e]=file:$HOME/Nextcloud/Pictures/Wallpapers/ventura-dark.jpg,file:
 Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Nextcloud/Pictures/logos/,file:$HOME/Nextcloud/Pictures/Wallpapers/,file:$HOME/Nextcloud/Pictures/,file:$HOME/Nextcloud/
 detailViewIconSize=16
 iconViewIconSize=64
-
-[PlasmaTransientsConfig]
-PreloadWeight=2
 
 [PlasmaViews][Panel 105]
 alignment=132
