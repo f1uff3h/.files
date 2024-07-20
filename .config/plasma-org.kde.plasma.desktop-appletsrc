@@ -108,10 +108,10 @@ popupHeight=400
 popupWidth=352
 
 [Containments][168][Applets][248][Configuration][Appearance]
+customDateFormat=MM.dd -
 dateDisplayFormat=BesideTime
-dateFormat=isoDate
+dateFormat=custom
 firstDayOfWeek=0
-showDate=false
 showWeekNumbers=true
 
 [Containments][168][Applets][248][Configuration][ConfigDialog]
@@ -143,25 +143,33 @@ DialogWidth=640
 immutability=1
 plugin=ChatAI-Plasmoid
 
+[Containments][168][Applets][264][Configuration]
+PreloadWeight=100
+popupHeight=1476
+popupWidth=909
+
+[Containments][168][Applets][264][Configuration][General]
+url=https://chat.openai.com/chat
+
 [Containments][168][Applets][265]
 immutability=1
 plugin=com.samirgaire10.perplexityAi-plasma6
 
 [Containments][168][Applets][265][Configuration]
-PreloadWeight=65
-popupHeight=1512
+PreloadWeight=100
+popupHeight=904
 popupWidth=640
 
 [Containments][168][Applets][265][Configuration][General]
 favIcon=https://www.perplexity.ai/favicon.ico
-url=https://www.perplexity.ai/search/pipx-install-asdf-7YKg8aFnRxyUF2Ex3bxFLA
+url=https://www.perplexity.ai/search/what-are-some-sensible-rate-li-hnSwKPksR9axe99Tw_8Lyg
 
 [Containments][168][Applets][267]
 immutability=1
 plugin=de.davidhi.ddcci-brightness
 
 [Containments][168][Applets][267][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 popupHeight=129
 popupWidth=457
 
@@ -255,7 +263,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][174][Applets][184][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][174][Applets][185]
 immutability=1
@@ -273,7 +281,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][174][Applets][189][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][174][Applets][190]
 immutability=1
@@ -287,7 +295,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][174][Applets][191][Configuration]
-PreloadWeight=11
+PreloadWeight=0
 
 [Containments][174][Applets][192]
 immutability=1
@@ -457,9 +465,9 @@ extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.bright
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 
 [Containments][258]
-ItemGeometries-1707x960=
-ItemGeometries-2560x1600=Applet-266:1664,128,656,256,0;
-ItemGeometriesHorizontal=Applet-266:1664,128,656,256,0;
+ItemGeometries-1707x960=Applet-266:816,128,656,256,0;
+ItemGeometries-2560x1600=
+ItemGeometriesHorizontal=
 activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
 formfactor=0
 immutability=1
@@ -471,6 +479,7 @@ wallpaperplugin=org.kde.image
 [Containments][258][Applets][266]
 immutability=1
 plugin=com.github.prayag2.modernclock
+transient=true
 
 [Containments][258][Applets][266][Configuration][Appearance]
 day_font_size=80
@@ -481,6 +490,10 @@ use_24_hour_format=true
 [Containments][258][Applets][266][Configuration][ConfigDialog]
 DialogHeight=480
 DialogWidth=640
+
+[Containments][258][ConfigDialog]
+DialogHeight=1484
+DialogWidth=2159
 
 [Containments][262]
 activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb

@@ -274,6 +274,10 @@ _launch=Alt+F2\tSearch\tAlt+Space\tMeta+R
 [services][org.kde.plasma.emojier.desktop]
 _launch=Meta+Ctrl+Alt+Shift+Space
 
+[services][org.kde.spectacle.desktop]
+RecordRegion=Meta+Shift+R
+RecordWindow=none
+
 [services][waterfox.desktop]
 NewWindow=Meta+Shift+W
 
