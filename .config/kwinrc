@@ -60,5 +60,5 @@ RollOverDesktops=true
 Scale=1
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=S
-ButtonsOnRight=HIX
+ButtonsOnLeft=
+ButtonsOnRight=IX
