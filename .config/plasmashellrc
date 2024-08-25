@@ -1,34 +1,11 @@
-[Applets][204]
-immutability=1
-plugin=org.kde.plasma.weather
-
-[Applets][204][Configuration]
-PreloadWeight=0
-configMigrated=true
-popupHeight=269
-popupWidth=272
-
-[Applets][204][Configuration][Appearance]
-showPressureInTooltip=true
-
-[Applets][204][Configuration][ConfigDialog]
-DialogHeight=570
-DialogWidth=760
-
-[Applets][204][Configuration][Units]
-pressureUnit=5029
-speedUnit=9000
-temperatureUnit=6001
-visibilityUnit=2007
-
-[Applets][204][Configuration][WeatherStation]
-source=wettercom|weather|Cluj-Napoca, Cluj, RO|RO0681290;Cluj-Napoca
-
 [KFileDialog Settings]
 Recent Files[$e]=file:$HOME/Nextcloud/Pictures/Wallpapers/ventura-dark.jpg,file:$HOME/Nextcloud/Pictures/Wallpapers/4kcolors-1.jpg,file:$HOME/Nextcloud/Pictures/Wallpapers/4k-minimal-1.jpg,file:$HOME/Nextcloud/Pictures/Wallpapers/ganapathy-kumar-FQhYGMZ_H_4-unsplash.jpg,file:$HOME/Nextcloud/Pictures/logos/600px-Arch-linux-logo.png,file:$HOME/Pictures/harun-asrori-YaVzA1txTRQ-unsplash.jpg,file:$HOME/Pictures/uwp4237905.jpeg
 Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Nextcloud/Pictures/logos/,file:$HOME/Nextcloud/Pictures/Wallpapers/,file:$HOME/Nextcloud/Pictures/,file:$HOME/Nextcloud/
 detailViewIconSize=16
 iconViewIconSize=64
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
 
 [PlasmaViews][Panel 105]
 alignment=132
@@ -59,7 +36,7 @@ floating=1
 panelOpacity=0
 
 [PlasmaViews][Panel 168][Defaults]
-thickness=32
+thickness=38
 
 [PlasmaViews][Panel 195]
 floating=1
@@ -110,6 +87,19 @@ thickness=50
 maxLength=1030
 minLength=254
 offset=0
+
+[PlasmaViews][Panel 269]
+floating=1
+panelLengthMode=2
+
+[PlasmaViews][Panel 269][Defaults]
+maxLength=2528
+minLength=1414
+thickness=38
+
+[PlasmaViews][Panel 269][Horizontal2560]
+maxLength=2528
+minLength=1414
 
 [PlasmaViews][Panel 50]
 alignment=132
