@@ -93,13 +93,13 @@ floating=1
 panelLengthMode=2
 
 [PlasmaViews][Panel 269][Defaults]
-maxLength=2528
-minLength=1414
+maxLength=2560
+minLength=467
 thickness=38
 
 [PlasmaViews][Panel 269][Horizontal2560]
-maxLength=2528
-minLength=1414
+maxLength=2560
+minLength=467
 
 [PlasmaViews][Panel 50]
 alignment=132
