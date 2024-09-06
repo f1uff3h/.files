@@ -91,7 +91,8 @@ ForegroundPositive=107,196,255
 ForegroundVisited=98,158,255
 
 [General]
-ColorSchemeHash=38f350e0530aaa58cc20a2cf2011a8a2d0c7a4fc
+ColorScheme=NewDeepinDark
+ColorSchemeHash=f0b006887332485e21b802ea2c1aee68ab6d1aed
 XftHintStyle=hintslight
 XftSubPixel=rgb
 accentColorFromWallpaper=false
@@ -102,7 +103,7 @@ smallestReadableFont=Cantarell,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Cantarell,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
-LookAndFeelPackage=Deepin.Dark.Plasma6
+LookAndFeelPackage=org.kde.breezedark.desktop
 ShowDeleteCommand=true
 SingleClick=true
 
