@@ -22,8 +22,12 @@ Meta=org.kde.kglobalaccel,/component/kwin,org.kde.kglobalaccel.Component,invokeS
 
 [NightColor]
 Active=true
+EveningBeginFixed=1900
 LatitudeAuto=46.77
 LongitudeAuto=23.59
+Mode=Times
+MorningBeginFixed=0700
+NightTemperature=3200
 
 [Plugins]
 blurEnabled=true
@@ -57,10 +61,8 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1
+Scale=2.25
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=
 ButtonsOnRight=IX
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__deepin-dark
