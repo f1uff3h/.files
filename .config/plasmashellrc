@@ -5,7 +5,7 @@ detailViewIconSize=16
 iconViewIconSize=64
 
 [PlasmaTransientsConfig]
-PreloadWeight=0
+PreloadWeight=42
 
 [PlasmaViews][Panel 105]
 alignment=132
