@@ -95,7 +95,7 @@ panelLengthMode=2
 [PlasmaViews][Panel 269][Defaults]
 maxLength=2560
 minLength=467
-thickness=38
+thickness=42
 
 [PlasmaViews][Panel 269][Horizontal2560]
 maxLength=2560

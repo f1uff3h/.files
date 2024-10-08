@@ -74,7 +74,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][269][Applets][277][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 SystrayContainmentId=278
 
 [Containments][269][Applets][292]
@@ -82,7 +82,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][269][Applets][292][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 popupHeight=450
 popupWidth=560
 
@@ -103,7 +103,7 @@ immutability=1
 plugin=ChatAI-Plasmoid
 
 [Containments][269][Applets][300][Configuration]
-PreloadWeight=75
+PreloadWeight=90
 popupHeight=709
 popupWidth=512
 
@@ -171,7 +171,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][278][Applets][281][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][278][Applets][282]
 immutability=1
@@ -219,21 +219,21 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][278][Applets][290][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][278][Applets][295]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][278][Applets][295][Configuration]
-PreloadWeight=49
+PreloadWeight=33
 
 [Containments][278][Applets][296]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][278][Applets][296][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][278][Applets][296][Configuration][General]
 currentDetailsTab=details
@@ -243,14 +243,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][278][Applets][297][Configuration]
-PreloadWeight=28
+PreloadWeight=4
 
 [Containments][278][Applets][298]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][278][Applets][298][Configuration]
-PreloadWeight=33
+PreloadWeight=9
 
 [Containments][278][Applets][299]
 immutability=1
