@@ -9,7 +9,7 @@ RightButton;NoModifier=org.kde.contextmenu
 ItemGeometries-0x0=Applet-294:1120,304,320,320,0;
 ItemGeometries-1707x960=Applet-294:1120,272,320,320,0;
 ItemGeometries-2560x1600=Applet-294:1440,256,432,384,0;
-ItemGeometriesHorizontal=Applet-294:1440,256,432,384,0;
+ItemGeometriesHorizontal=Applet-294:1120,272,320,320,0;
 activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
 formfactor=0
 immutability=1
@@ -243,14 +243,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][278][Applets][297][Configuration]
-PreloadWeight=4
+PreloadWeight=1
 
 [Containments][278][Applets][298]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][278][Applets][298][Configuration]
-PreloadWeight=9
+PreloadWeight=1
 
 [Containments][278][Applets][299]
 immutability=1
