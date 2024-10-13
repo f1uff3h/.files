@@ -8,8 +8,8 @@ RightButton;NoModifier=org.kde.contextmenu
 [Containments][268]
 ItemGeometries-0x0=Applet-294:1120,304,320,320,0;
 ItemGeometries-1707x960=Applet-294:1120,272,320,320,0;
-ItemGeometries-2560x1600=Applet-294:1440,256,432,384,0;
-ItemGeometriesHorizontal=Applet-294:1120,272,320,320,0;
+ItemGeometries-2560x1600=
+ItemGeometriesHorizontal=
 activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
 formfactor=0
 immutability=1
@@ -18,17 +18,12 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][268][Applets][294]
-immutability=1
-plugin=CircleClock
-
 [Containments][268][ConfigDialog]
 DialogHeight=841
 DialogWidth=1475
 
 [Containments][268][Wallpaper][org.kde.image][General]
-Image=/home/peco/.local/share/wallpapers/purslane.Nord/
-PreviewImage=/home/peco/.local/share/wallpapers/purslane.Nord/
+Image=/usr/share/wallpapers/Next/
 SlidePaths=/home/peco/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][269]
@@ -39,10 +34,6 @@ lastScreen=0
 location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
-
-[Containments][269][Applets][272]
-immutability=1
-plugin=zayron.simple.separator
 
 [Containments][269][Applets][273]
 immutability=1
@@ -58,23 +49,19 @@ launchers=
 [Containments][269][Applets][274][Configuration][General]
 iconSpacing=0
 indicateAudioStreams=false
-launchers=applications:Alacritty.desktop,applications:org.kde.dolphin.desktop,applications:brave-browser.desktop,applications:waterfox.desktop,applications:freetube.desktop,applications:localsend.desktop,applications:gimp.desktop,applications:org.kde.digikam.desktop,applications:systemsettings.desktop
+launchers=applications:Alacritty.desktop,applications:org.kde.dolphin.desktop,applications:bitwarden.desktop,applications:org.mozilla.Thunderbird.desktop,applications:brave-browser.desktop,applications:waterfox.desktop,applications:freetube.desktop,applications:localsend.desktop,applications:deluge.desktop,applications:gimp.desktop,applications:org.kde.digikam.desktop,applications:systemsettings.desktop
 maxStripes=1
 
 [Containments][269][Applets][275]
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
-[Containments][269][Applets][276]
-immutability=1
-plugin=zayron.simple.separator
-
 [Containments][269][Applets][277]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][269][Applets][277][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 SystrayContainmentId=278
 
 [Containments][269][Applets][292]
@@ -82,13 +69,15 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][269][Applets][292][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 popupHeight=450
 popupWidth=560
 
 [Containments][269][Applets][292][Configuration][Appearance]
-autoFontAndSize=false
-dateFormat=isoDate
+customDateFormat=yyyy-MM-dd |
+dateDisplayFormat=BesideTime
+dateFormat=custom
+displayTimezoneFormat=FullText
 fontFamily=Cantarell
 fontSize=14
 fontStyleName=Regular
@@ -98,51 +87,16 @@ fontWeight=400
 DialogHeight=540
 DialogWidth=720
 
-[Containments][269][Applets][300]
+[Containments][269][Applets][306]
 immutability=1
-plugin=ChatAI-Plasmoid
+plugin=org.kde.plasma.marginsseparator
 
-[Containments][269][Applets][300][Configuration]
-PreloadWeight=90
-popupHeight=709
-popupWidth=512
-
-[Containments][269][Applets][301]
+[Containments][269][Applets][307]
 immutability=1
-plugin=com.samirgaire10.perplexityAi-plasma6
-
-[Containments][269][Applets][301][Configuration]
-PreloadWeight=100
-popupHeight=7
-popupWidth=8
-
-[Containments][269][Applets][301][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][269][Applets][301][Configuration][General]
-constantZoomFactor=50
-favIcon=https://www.perplexity.ai/favicon.ico
-icon=appimagekit-wewechat
-url=https://www.perplexity.ai/search/git-ammend-commit-message-4z4Hl15ORniJcYD4jby8dw
-useMinViewWidth=false
-
-[Containments][269][Applets][302]
-immutability=1
-plugin=org.kde.plasma.lock_logout
-
-[Containments][269][Applets][302][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][269][Applets][302][Configuration][General]
-show_lockScreen=false
-show_requestReboot=true
-show_suspendToDisk=true
-show_suspendToRam=true
+plugin=org.kde.plasma.marginsseparator
 
 [Containments][269][General]
-AppletOrder=302;272;273;274;275;276;301;300;277;292
+AppletOrder=274;306;273;292;275;307;277
 
 [Containments][278]
 activityId=
@@ -182,7 +136,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][278][Applets][283][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][278][Applets][284]
 immutability=1
@@ -201,7 +155,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][278][Applets][287][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][278][Applets][287][Configuration][General]
 migrated=true
@@ -226,7 +180,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][278][Applets][295][Configuration]
-PreloadWeight=33
+PreloadWeight=10
 
 [Containments][278][Applets][296]
 immutability=1
@@ -243,14 +197,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][278][Applets][297][Configuration]
-PreloadWeight=1
+PreloadWeight=5
 
 [Containments][278][Applets][298]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][278][Applets][298][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][278][Applets][299]
 immutability=1
@@ -260,14 +214,15 @@ plugin=org.kde.plasma.mediacontroller
 PreloadWeight=0
 
 [Containments][278][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
+DialogHeight=540
+DialogWidth=720
 
 [Containments][278][General]
 extraItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
 hiddenItems=Notificador de Discover_org.kde.DiscoverNotifier
 iconSpacing=1
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kdeconnect
+shownItems=org.kde.plasma.battery
 
 [Containments][303]
 activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
@@ -277,6 +232,35 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][309]
+activityId=
+formfactor=3
+immutability=1
+lastScreen=0
+location=5
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][309][Applets][302]
+immutability=1
+plugin=org.kde.plasma.lock_logout
+
+[Containments][309][Applets][302][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][309][Applets][302][Configuration][General]
+show_lockScreen=false
+show_requestLogout=true
+show_requestLogoutScreen=false
+show_requestReboot=true
+show_requestShutDown=true
+show_suspendToDisk=true
+show_suspendToRam=true
+
+[Containments][309][General]
+AppletOrder=302
 
 [ScreenMapping]
 itemsOnDisabledScreens=

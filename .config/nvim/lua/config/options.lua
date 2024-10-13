@@ -3,6 +3,12 @@
 -- Add any additional options here
 LazyVim.terminal.setup("nu")
 
+vim.filetype.add({
+  pattern = {
+    [".*[C|c]ontainerfile.*"] = "dockerfile",
+  },
+})
+
 local opt = vim.opt
 
 opt.spell = true

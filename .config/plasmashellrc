@@ -5,7 +5,7 @@ detailViewIconSize=16
 iconViewIconSize=64
 
 [PlasmaTransientsConfig]
-PreloadWeight=42
+PreloadWeight=34
 
 [PlasmaViews][Panel 105]
 alignment=132
@@ -90,16 +90,25 @@ offset=0
 
 [PlasmaViews][Panel 269]
 floating=1
-panelLengthMode=2
+panelLengthMode=0
 
 [PlasmaViews][Panel 269][Defaults]
 maxLength=2560
-minLength=467
+minLength=2530
 thickness=42
 
 [PlasmaViews][Panel 269][Horizontal2560]
 maxLength=2560
-minLength=467
+minLength=2530
+
+[PlasmaViews][Panel 309]
+alignment=2
+floating=1
+panelLengthMode=1
+panelVisibility=1
+
+[PlasmaViews][Panel 309][Defaults]
+thickness=40
 
 [PlasmaViews][Panel 50]
 alignment=132
