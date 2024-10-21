@@ -7,7 +7,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][268]
 ItemGeometries-0x0=Applet-294:1120,304,320,320,0;
-ItemGeometries-1707x960=Applet-294:1120,272,320,320,0;
+ItemGeometries-1707x960=
 ItemGeometries-2560x1600=
 ItemGeometriesHorizontal=
 activityId=6e58747f-32b1-42d9-b9eb-db21eac2f5eb
@@ -125,7 +125,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][278][Applets][281][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][278][Applets][282]
 immutability=1
@@ -136,7 +136,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][278][Applets][283][Configuration]
-PreloadWeight=70
+PreloadWeight=80
 
 [Containments][278][Applets][284]
 immutability=1
@@ -145,6 +145,9 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][278][Applets][285]
 immutability=1
 plugin=org.kde.kscreen
+
+[Containments][278][Applets][285][Configuration]
+PreloadWeight=55
 
 [Containments][278][Applets][286]
 immutability=1
@@ -180,14 +183,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][278][Applets][295][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][278][Applets][296]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][278][Applets][296][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][278][Applets][296][Configuration][General]
 currentDetailsTab=details
@@ -197,14 +200,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][278][Applets][297][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][278][Applets][298]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][278][Applets][298][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][278][Applets][299]
 immutability=1

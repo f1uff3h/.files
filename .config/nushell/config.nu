@@ -20,7 +20,7 @@ alias gl = git log --all --oneline -n 4
 alias gd = git $"--git-dir=($env.HOME)/repos/.files" $"--work-tree=($env.HOME)"
 alias tfdev = podman container run -it -v tf-nu:/root/.config/nushell -v tf-nv:/root/.local/share/nvim -v persist-z:/root/.local/share/zoxide -v copilot:/root/.config/github-copilot -v $'($env.HOME)/repos/.init/:/init' -v $'($env.HOME)/.ssh/:/root/.ssh:ro' -v $'($env.HOME)/.gitconfig:/root/.gitconfig:ro' -v ./:/workspace tfdev nu
 alias iacdev = podman container run -it -v iac-nu:/root/.config/nushell -v iac-nv:/root/.local/share/nvim -v persist-z:/root/.local/share/zoxide -v copilot:/root/.config/github-copilot -v $'($env.HOME)/repos/.init/:/init' -v $'($env.HOME)/.ssh/:/root/.ssh:ro' -v $'($env.HOME)/.gitconfig:/root/.gitconfig:ro' -v ./:/workspace iacdev nu
-alias g123dev = podman container run -it -v go-nu:/root/.config/nushell -v go-nv:/root/.local/share/nvim -v persist-z:/root/.local/share/zoxide -v copilot:/root/.config/github-copilot -v $'($env.HOME)/repos/.init/:/init' -v $'($env.HOME)/.ssh/:/root/.ssh:ro' -v $'($env.HOME)/.gitconfig:/root/.gitconfig:ro' -v ./:/workspace godev:1.23_01 nu
+alias godev = podman container run -it -v go-nu:/root/.config/nushell -v go-nv:/root/.local/share/nvim -v persist-z:/root/.local/share/zoxide -v copilot:/root/.config/github-copilot -v $'($env.HOME)/repos/.init/:/init' -v $'($env.HOME)/.ssh/:/root/.ssh:ro' -v $'($env.HOME)/.gitconfig:/root/.gitconfig:ro' -v ./:/workspace godev:1.23_01 nu
 
 source ~/.cache/zoxide/init.nu
 use ~/.cache/starship/init.nu
