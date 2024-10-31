@@ -1,7 +1,5 @@
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Nextcloud/Pictures/Wallpapers/ventura-dark.jpg,file:$HOME/Nextcloud/Pictures/Wallpapers/4kcolors-1.jpg,file:$HOME/Nextcloud/Pictures/Wallpapers/4k-minimal-1.jpg,file:$HOME/Nextcloud/Pictures/Wallpapers/ganapathy-kumar-FQhYGMZ_H_4-unsplash.jpg,file:$HOME/Nextcloud/Pictures/logos/600px-Arch-linux-logo.png,file:$HOME/Pictures/harun-asrori-YaVzA1txTRQ-unsplash.jpg,file:$HOME/Pictures/uwp4237905.jpeg
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Nextcloud/Pictures/logos/,file:$HOME/Nextcloud/Pictures/Wallpapers/,file:$HOME/Nextcloud/Pictures/,file:$HOME/Nextcloud/
-detailViewIconSize=16
+detailViewIconSize=64
 iconViewIconSize=64
 
 [PlasmaViews][Panel 105]
@@ -86,13 +84,13 @@ minLength=254
 offset=0
 
 [PlasmaViews][Panel 269]
-floating=1
+floating=0
 panelLengthMode=0
 
 [PlasmaViews][Panel 269][Defaults]
 maxLength=2560
 minLength=2530
-thickness=42
+thickness=30
 
 [PlasmaViews][Panel 269][Horizontal2560]
 maxLength=2560
@@ -105,6 +103,22 @@ panelLengthMode=1
 panelVisibility=1
 
 [PlasmaViews][Panel 309][Defaults]
+thickness=90
+
+[PlasmaViews][Panel 311]
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 311][Defaults]
+thickness=56
+
+[PlasmaViews][Panel 317]
+alignment=2
+floating=1
+panelLengthMode=1
+
+[PlasmaViews][Panel 317][Defaults]
 thickness=40
 
 [PlasmaViews][Panel 50]

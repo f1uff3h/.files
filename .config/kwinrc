@@ -12,6 +12,9 @@ Name_5=Extra
 Number=5
 Rows=1
 
+[Effect-overview]
+BorderActivate=3
+
 [Effect-wobblywindows]
 Drag=90
 Stiffness=6
@@ -22,11 +25,12 @@ Meta=org.kde.kglobalaccel,/component/kwin,org.kde.kglobalaccel.Component,invokeS
 
 [NightColor]
 Active=true
+EveningBeginFixed=1730
 LatitudeAuto=46.77
 LongitudeAuto=23.59
 Mode=Times
 MorningBeginFixed=0700
-NightTemperature=2900
+NightTemperature=3000
 
 [Plugins]
 blurEnabled=true
@@ -45,7 +49,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][8be8235e-cd74-559b-99b2-62c355e7853b]
-tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.85},{"height":0.15000000000000002}],"width":0.5},{"width":0.5}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.5},{"width":0.5}]}
 
 [Tiling][9dd91f68-8f2c-5a84-b725-eca77adaf447]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}

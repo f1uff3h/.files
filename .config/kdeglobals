@@ -134,14 +134,15 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorSchemeHash=babca25f3a5cf7ece26a85de212ab43d0a141257
-XftHintStyle=hintslight
+XftAntialias=true
+XftHintStyle=hintfull
 XftSubPixel=rgb
 accentColorFromWallpaper=false
-fixed=FiraMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Cantarell,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Cantarell,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=Cantarell,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Cantarell,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=Hack,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Inter Display,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Inter Display,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Inter Display,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Inter Display,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
@@ -174,7 +175,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=49,54,59
 activeBlend=252,252,252
-activeFont=Cantarell,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeFont=Inter,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=252,252,252
 inactiveBackground=42,46,50
 inactiveBlend=161,169,177

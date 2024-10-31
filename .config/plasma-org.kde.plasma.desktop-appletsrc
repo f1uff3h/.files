@@ -19,11 +19,12 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][268][ConfigDialog]
-DialogHeight=841
-DialogWidth=1475
+DialogHeight=886
+DialogWidth=1381
 
 [Containments][268][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Next/
+Image=/home/peco/Pictures/Wallpapers/lions.jpg
+PreviewImage=/home/peco/Pictures/Wallpapers/francesco-ungaro-6DkEQoRUeQc-unsplash.jpg
 SlidePaths=/home/peco/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][269]
@@ -38,19 +39,6 @@ wallpaperplugin=org.kde.image
 [Containments][269][Applets][273]
 immutability=1
 plugin=org.kde.plasma.panelspacer
-
-[Containments][269][Applets][274]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][269][Applets][274][Configuration]
-launchers=
-
-[Containments][269][Applets][274][Configuration][General]
-iconSpacing=0
-indicateAudioStreams=false
-launchers=applications:Alacritty.desktop,applications:org.kde.dolphin.desktop,applications:bitwarden.desktop,applications:org.mozilla.Thunderbird.desktop,applications:brave-browser.desktop,applications:waterfox.desktop,applications:freetube.desktop,applications:localsend.desktop,applications:deluge.desktop,applications:gimp.desktop,applications:org.kde.digikam.desktop,applications:systemsettings.desktop
-maxStripes=1
 
 [Containments][269][Applets][275]
 immutability=1
@@ -69,12 +57,12 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][269][Applets][292][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 popupHeight=450
 popupWidth=560
 
 [Containments][269][Applets][292][Configuration][Appearance]
-customDateFormat=yyyy-MM-dd |
+customDateFormat=yyyy-MM-dd\s
 dateDisplayFormat=BesideTime
 dateFormat=custom
 displayTimezoneFormat=FullText
@@ -95,8 +83,55 @@ plugin=org.kde.plasma.marginsseparator
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
+[Containments][269][Applets][310]
+immutability=1
+plugin=org.kde.plasma.appmenu
+
+[Containments][269][Applets][310][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][269][Applets][312]
+immutability=1
+plugin=org.kde.windowtitle
+
+[Containments][269][Applets][312][Configuration][Appearance]
+activityIcon=false
+altTxt=
+fontSize=17
+isCaps=true
+noIcon=true
+visible=false
+
+[Containments][269][Applets][312][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][269][Applets][316]
+immutability=1
+plugin=org.kde.windowbuttons
+
+[Containments][269][Applets][316][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][269][Applets][316][Configuration][General]
+buttons=5|3|10|4|2|9
+containmentType=Plasma
+selectedScheme=kdeglobals
+spacing=0
+visibility=3
+
+[Containments][269][Applets][318]
+immutability=1
+plugin=com.dv.fokus
+
+[Containments][269][Applets][318][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][269][General]
-AppletOrder=274;306;273;292;275;307;277
+AppletOrder=316;312;306;310;273;292;275;307;318;277
 
 [Containments][278]
 activityId=
@@ -136,7 +171,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][278][Applets][283][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][278][Applets][284]
 immutability=1
@@ -147,7 +182,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][278][Applets][285][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][278][Applets][286]
 immutability=1
@@ -236,7 +271,39 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][309]
+[Containments][303][Wallpaper][org.kde.image][General]
+Image=/home/peco/Pictures/Wallpapers/lions.jpg
+
+[Containments][311]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][311][Applets][274]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][311][Applets][274][Configuration]
+launchers=
+
+[Containments][311][Applets][274][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][311][Applets][274][Configuration][General]
+iconSpacing=0
+indicateAudioStreams=false
+launchers=applications:org.kde.dolphin.desktop,applications:Alacritty.desktop,applications:com.brave.Browser.desktop,applications:net.waterfox.waterfox.desktop,applications:org.mozilla.Thunderbird.desktop,applications:gimp.desktop,applications:org.kde.digikam.desktop,applications:org.localsend.localsend_app.desktop,applications:deluge.desktop,applications:com.bitwarden.desktop.desktop,applications:systemsettings.desktop
+maxStripes=1
+
+[Containments][311][General]
+AppletOrder=274
+
+[Containments][317]
 activityId=
 formfactor=3
 immutability=1
@@ -245,25 +312,33 @@ location=5
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][309][Applets][302]
+[Containments][317][Applets][319]
 immutability=1
 plugin=org.kde.plasma.lock_logout
 
-[Containments][309][Applets][302][Configuration][ConfigDialog]
+[Containments][317][Applets][319][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][309][Applets][302][Configuration][General]
-show_lockScreen=false
+[Containments][317][Applets][319][Configuration][General]
 show_requestLogout=true
 show_requestLogoutScreen=false
 show_requestReboot=true
 show_requestShutDown=true
 show_suspendToDisk=true
-show_suspendToRam=true
 
-[Containments][309][General]
-AppletOrder=302
+[Containments][317][General]
+AppletOrder=319
+
+[Containments269Appletsts][318][Configuration][General]
+clock_fontfamily=Inter Display
+focus_time=50
+long_break_time=25
+short_break_time=10
+timer_start_notification_enabled=true
+timer_start_sfx_enabled=true
+timer_start_sfx_filepath=/usr/share/sounds/ocean/stereo/theme-demo.oga
+timer_stop_sfx_filepath=/usr/share/sounds/ocean/stereo/game-over-winner.oga
 
 [ScreenMapping]
 itemsOnDisabledScreens=
