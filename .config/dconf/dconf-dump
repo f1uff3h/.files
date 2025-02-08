@@ -1,0 +1,263 @@
+[ca/desrt/dconf-editor]
+show-warning=false
+
+[org/gnome/Ptyxis]
+default-profile-uuid='f6194f222fb2a62c1017d17567a42ee0'
+profile-uuids=['f6194f222fb2a62c1017d17567a42ee0']
+window-size=(uint32 165, uint32 57)
+
+[org/gnome/TextEditor]
+last-save-directory='file:///home/peco/Documents/LUXOFT'
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-maximized=false
+window-size=(360, 625)
+word-size=64
+
+[org/gnome/control-center]
+last-panel='keyboard'
+window-state=(1339, 935, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+primary-color='#51a2da'
+secondary-color='#294172'
+
+[org/gnome/desktop/calendar]
+show-weekdate=true
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+mru-sources=[('xkb', 'us')]
+sources=[('xkb', 'us'), ('xkb', 'de')]
+
+[org/gnome/desktop/interface]
+clock-format='24h'
+clock-show-weekday=false
+color-scheme='default'
+enable-animations=true
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-settings', 'org-gnome-software', 'org-freedesktop-problems-applet', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-ptyxis', 'me-proton-mail']
+
+[org/gnome/desktop/notifications/application/me-proton-mail]
+application-id='me.proton.Mail.desktop'
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-ptyxis]
+application-id='org.gnome.Ptyxis.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions-gsconnect]
+application-id='org.gnome.Shell.Extensions.GSConnect.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/peripherals/mouse]
+natural-scroll=true
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+recent-files-max-age=30
+report-technical-problems=false
+
+[org/gnome/desktop/screensaver]
+primary-color='#51a2da'
+secondary-color='#294172'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Shift><Super>c']
+switch-to-workspace-left=['<Control><Super>Left']
+switch-to-workspace-right=['<Control><Super>Right']
+
+[org/gnome/desktop/wm/preferences]
+resize-with-right-button=true
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/gnome-system-monitor]
+current-tab='resources'
+show-dependencies=false
+show-whose-processes='user'
+window-height=864
+window-width=1177
+
+[org/gnome/gnome-system-monitor/proctree]
+col-26-visible=false
+col-26-width=0
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter]
+center-new-windows=true
+workspaces-only-on-primary=false
+
+[org/gnome/nautilus/preferences]
+click-policy='single'
+default-folder-viewer='list-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+initial-size-file-chooser=(890, 550)
+
+[org/gnome/portal/filechooser/com.brave.Browser]
+last-folder-path='/home/peco/Documents/LUXOFT'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-from=18.0
+night-light-temperature=uint32 3062
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>e'
+command='nautilus'
+name='nautilus'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>Return'
+command='alacritty'
+name='alacritty'
+
+[org/gnome/shell]
+app-picker-layout=[{'org.gnome.Calendar.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'org.gnome.Snapshot.desktop': <{'position': <5>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <9>}>, 'simple-scan.desktop': <{'position': <10>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <11>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'libreoffice-calc.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'libreoffice-impress.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'libreoffice-writer.desktop': <{'position': <18>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <19>}>, 'org.gnome.Ptyxis.desktop': <{'position': <20>}>, 'org.gnome.Tour.desktop': <{'position': <21>}>, 'org.localsend.localsend_app.desktop': <{'position': <22>}>}]
+disabled-extensions=['background-logo@fedorahosted.org', 'Battery-Health-Charging@maniacx.github.com', 'gnome-ui-tune@itstime.tech']
+enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'gsconnect@andyholmes.github.io', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'clipboard-indicator@tudmotu.com', 'lockkeys@vaina.lt', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'thinkpad-battery-threshold@marcosdalvarez.org', 'just-perfection-desktop@just-perfection']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'me.proton.Mail.desktop', 'org.mozilla.firefox.desktop', 'com.brave.Browser.desktop', 'com.jgraph.drawio.desktop.desktop', 'Alacritty.desktop', 'org.localsend.localsend_app.desktop', 'com.rustdesk.RustDesk.desktop', 'com.bitwarden.desktop.desktop', 'org.gnome.Software.desktop', 'org.gnome.Settings.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='47.0'
+
+[org/gnome/shell/extensions/Battery-Health-Charging]
+amend-power-indicator=false
+default-threshold=true
+device-type=20
+dummy-default-threshold=false
+icon-style-type=0
+polkit-status='installed'
+
+[org/gnome/shell/extensions/caffeine]
+indicator-position-max=4
+restore-state=true
+toggle-state=true
+user-enabled=true
+
+[org/gnome/shell/extensions/clipboard-indicator]
+clear-on-boot=true
+strip-text=true
+
+[org/gnome/shell/extensions/gsconnect]
+id='b7d7c868-2753-4bff-a34d-cb30e86b1c2c'
+name='fedora'
+
+[org/gnome/shell/extensions/just-perfection]
+support-notifier-showed-version=34
+window-demands-attention-focus=true
+workspace-switcher-should-show=true
+workspace-wrap-around=true
+
+[org/gnome/shell/extensions/thinkpad-battery-threshold]
+end-bat0=60
+indicator-mode='INACTIVE'
+start-bat0=55
+
+[org/gnome/shell/extensions/tweaks-system-menu]
+applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop']
+
+[org/gnome/shell/keybindings]
+screenshot=['<Shift><Super>s']
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1739001831
+first-run=false
+flatpak-purge-timestamp=int64 1738990146
+packagekit-historical-updates-timestamp=uint64 1738774974
+update-notification-timestamp=int64 1738774807
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+sidebar-width=140
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+view-type='list'
+window-size=(1178, 372)
+
+[org/gtk/settings/file-chooser]
+clock-format='24h'
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=157
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1231, 971)
+
+[system/locale]
+region='en_GB.UTF-8'
