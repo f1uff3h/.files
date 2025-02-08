@@ -1,7 +1,0 @@
-[Daemon]
-LockGrace=30
-Timeout=15
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=/home/peco/Pictures/Wallpapers/lions.jpg
-PreviewImage=/home/peco/Pictures/Wallpapers/lions.jpg
