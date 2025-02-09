@@ -186,7 +186,7 @@ icon-style-type=0
 polkit-status='installed'
 
 [org/gnome/shell/extensions/caffeine]
-indicator-position-max=4
+indicator-position-max=3
 restore-state=true
 toggle-state=true
 user-enabled=true
@@ -220,11 +220,11 @@ screenshot=['<Shift><Super>s']
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1739001831
+check-timestamp=int64 1739109089
 first-run=false
 flatpak-purge-timestamp=int64 1738990146
 packagekit-historical-updates-timestamp=uint64 1738774974
-update-notification-timestamp=int64 1738774807
+update-notification-timestamp=int64 1739109081
 
 [org/gnome/system/location]
 enabled=true
