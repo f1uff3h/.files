@@ -6,9 +6,6 @@ default-profile-uuid='f6194f222fb2a62c1017d17567a42ee0'
 profile-uuids=['f6194f222fb2a62c1017d17567a42ee0']
 window-size=(uint32 165, uint32 57)
 
-[org/gnome/TextEditor]
-last-save-directory='file:///home/peco/Documents/LUXOFT'
-
 [org/gnome/calculator]
 accuracy=9
 angle-units='degrees'
@@ -128,10 +125,6 @@ window-width=1177
 [org/gnome/gnome-system-monitor/proctree]
 col-26-visible=false
 col-26-width=0
-
-[org/gnome/login-screen]
-enable-fingerprint-authentication=true
-enable-smartcard-authentication=false
 
 [org/gnome/mutter]
 center-new-windows=true
