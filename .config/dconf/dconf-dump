@@ -1,5 +1,10 @@
 [ca/desrt/dconf-editor]
+saved-pathbar-path='/ca/desrt/dconf-editor/'
+saved-view='/ca/desrt/dconf-editor/'
 show-warning=false
+window-height=678
+window-is-maximized=false
+window-width=1010
 
 [org/gnome/Ptyxis]
 default-profile-uuid='f6194f222fb2a62c1017d17567a42ee0'
@@ -23,7 +28,7 @@ window-size=(360, 625)
 word-size=64
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='multitasking'
 window-state=(1339, 935, false)
 
 [org/gnome/desktop/app-folders]
@@ -67,7 +72,10 @@ color-scheme='default'
 enable-animations=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-settings', 'org-gnome-software', 'org-freedesktop-problems-applet', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-ptyxis', 'me-proton-mail']
+application-children=['org-gnome-settings', 'org-gnome-software', 'org-freedesktop-problems-applet', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-ptyxis', 'me-proton-mail', 'gnome-power-panel']
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
 
 [org/gnome/desktop/notifications/application/me-proton-mail]
 application-id='me.proton.Mail.desktop'
@@ -106,6 +114,10 @@ sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gno
 
 [org/gnome/desktop/wm/keybindings]
 close=['<Shift><Super>c']
+switch-applications=['<Super>Tab']
+switch-applications-backward=['<Shift><Super>Tab']
+switch-group=['<Alt>Tab']
+switch-group-backward=['<Shift><Alt>Tab']
 switch-to-workspace-left=['<Control><Super>Left']
 switch-to-workspace-right=['<Control><Super>Right']
 
@@ -141,7 +153,7 @@ initial-size=(890, 550)
 initial-size-file-chooser=(890, 550)
 
 [org/gnome/portal/filechooser/com.brave.Browser]
-last-folder-path='/home/peco/Documents/LUXOFT'
+last-folder-path='/home/peco/Downloads'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
@@ -169,6 +181,9 @@ enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.c
 favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'me.proton.Mail.desktop', 'org.mozilla.firefox.desktop', 'com.brave.Browser.desktop', 'com.jgraph.drawio.desktop.desktop', 'Alacritty.desktop', 'org.localsend.localsend_app.desktop', 'com.rustdesk.RustDesk.desktop', 'com.bitwarden.desktop.desktop', 'org.gnome.Software.desktop', 'org.gnome.Settings.desktop']
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='47.0'
+
+[org/gnome/shell/app-switcher]
+current-workspace-only=true
 
 [org/gnome/shell/extensions/Battery-Health-Charging]
 amend-power-indicator=false
@@ -207,15 +222,15 @@ start-bat0=55
 applications=['org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop']
 
 [org/gnome/shell/keybindings]
-screenshot=['<Shift><Super>s']
+show-screenshot-ui=['<Shift><Super>s']
 
 [org/gnome/shell/world-clocks]
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1739109089
+check-timestamp=int64 1739168873
 first-run=false
-flatpak-purge-timestamp=int64 1738990146
+flatpak-purge-timestamp=int64 1739168806
 packagekit-historical-updates-timestamp=uint64 1738774974
 update-notification-timestamp=int64 1739109081
 
