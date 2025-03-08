@@ -11,6 +11,9 @@ default-profile-uuid='f6194f222fb2a62c1017d17567a42ee0'
 profile-uuids=['f6194f222fb2a62c1017d17567a42ee0']
 window-size=(uint32 165, uint32 57)
 
+[org/gnome/TextEditor]
+last-save-directory='file:///home/peco/Documents/LUXOFT'
+
 [org/gnome/calculator]
 accuracy=9
 angle-units='degrees'
@@ -24,12 +27,12 @@ source-units='degree'
 target-currency=''
 target-units='radian'
 window-maximized=false
-window-size=(360, 625)
+window-size=(360, 626)
 word-size=64
 
 [org/gnome/control-center]
-last-panel='multitasking'
-window-state=(1339, 935, false)
+last-panel='display'
+window-state=(1339, 832, false)
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST', 'Pardus']
@@ -62,17 +65,21 @@ automatic-timezone=true
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
-mru-sources=[('xkb', 'us')]
+mru-sources=[('xkb', 'us'), ('xkb', 'de')]
 sources=[('xkb', 'us'), ('xkb', 'de')]
 
 [org/gnome/desktop/interface]
 clock-format='24h'
 clock-show-weekday=false
-color-scheme='default'
+color-scheme='prefer-dark'
 enable-animations=true
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-settings', 'org-gnome-software', 'org-freedesktop-problems-applet', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-ptyxis', 'me-proton-mail', 'gnome-power-panel']
+application-children=['org-gnome-settings', 'org-gnome-software', 'org-freedesktop-problems-applet', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-ptyxis', 'me-proton-mail', 'gnome-power-panel', 'com-mattjakeman-extensionmanager', 'org-gnome-nautilus', 'org-fedoraproject-mediawriter']
+show-banners=true
+
+[org/gnome/desktop/notifications/application/com-mattjakeman-extensionmanager]
+application-id='com.mattjakeman.ExtensionManager.desktop'
 
 [org/gnome/desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
@@ -80,8 +87,14 @@ application-id='gnome-power-panel.desktop'
 [org/gnome/desktop/notifications/application/me-proton-mail]
 application-id='me.proton.Mail.desktop'
 
+[org/gnome/desktop/notifications/application/org-fedoraproject-mediawriter]
+application-id='org.fedoraproject.MediaWriter.desktop'
+
 [org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
 application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-ptyxis]
 application-id='org.gnome.Ptyxis.desktop'
@@ -94,6 +107,9 @@ application-id='org.gnome.Shell.Extensions.GSConnect.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
 
 [org/gnome/desktop/peripherals/mouse]
 natural-scroll=true
@@ -124,11 +140,26 @@ switch-to-workspace-right=['<Control><Super>Right']
 [org/gnome/desktop/wm/preferences]
 resize-with-right-button=true
 
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='thumbnails'
+sidebar-size=132
+sizing-mode='automatic'
+window-ratio=(2.0170493360534749, 1.2433561123766135)
+zoom=0.48225308641975312
+
 [org/gnome/evolution-data-server]
 migrated=true
 
 [org/gnome/gnome-system-monitor]
 current-tab='resources'
+maximized=true
 show-dependencies=false
 show-whose-processes='user'
 window-height=864
@@ -137,6 +168,10 @@ window-width=1177
 [org/gnome/gnome-system-monitor/proctree]
 col-26-visible=false
 col-26-width=0
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-smartcard-authentication=false
 
 [org/gnome/mutter]
 center-new-windows=true
@@ -149,14 +184,21 @@ migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 
 [org/gnome/nautilus/window-state]
-initial-size=(890, 550)
+initial-size=(1498, 1018)
 initial-size-file-chooser=(890, 550)
 
 [org/gnome/portal/filechooser/com.brave.Browser]
 last-folder-path='/home/peco/Downloads'
 
+[org/gnome/portal/filechooser/me.proton.Mail]
+last-folder-path='/home/peco/Documents/CMT/2025/Martie'
+
+[org/gnome/portal/filechooser/org.fedoraproject.MediaWriter]
+last-folder-path='/home/peco/Downloads'
+
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=true
+night-light-last-coordinates=(46.7712, 23.6236)
 night-light-schedule-automatic=false
 night-light-schedule-from=18.0
 night-light-temperature=uint32 3062
@@ -178,8 +220,8 @@ name='alacritty'
 app-picker-layout=[{'org.gnome.Calendar.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'org.gnome.Snapshot.desktop': <{'position': <5>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <9>}>, 'simple-scan.desktop': <{'position': <10>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <11>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'libreoffice-calc.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'libreoffice-impress.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'libreoffice-writer.desktop': <{'position': <18>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <19>}>, 'org.gnome.Ptyxis.desktop': <{'position': <20>}>, 'org.gnome.Tour.desktop': <{'position': <21>}>, 'org.localsend.localsend_app.desktop': <{'position': <22>}>}]
 disabled-extensions=['background-logo@fedorahosted.org', 'Battery-Health-Charging@maniacx.github.com', 'gnome-ui-tune@itstime.tech']
 enabled-extensions=['launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'gsconnect@andyholmes.github.io', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'clipboard-indicator@tudmotu.com', 'lockkeys@vaina.lt', 'tweaks-system-menu@extensions.gnome-shell.fifi.org', 'thinkpad-battery-threshold@marcosdalvarez.org', 'just-perfection-desktop@just-perfection']
-favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'me.proton.Mail.desktop', 'org.mozilla.firefox.desktop', 'com.brave.Browser.desktop', 'com.jgraph.drawio.desktop.desktop', 'Alacritty.desktop', 'org.localsend.localsend_app.desktop', 'com.rustdesk.RustDesk.desktop', 'com.bitwarden.desktop.desktop', 'org.gnome.Software.desktop', 'org.gnome.Settings.desktop']
-last-selected-power-profile='performance'
+favorite-apps=['org.gnome.Nautilus.desktop', 'anytype.desktop', 'org.gnome.TextEditor.desktop', 'me.proton.Mail.desktop', 'org.mozilla.firefox.desktop', 'com.brave.Browser.desktop', 'com.jgraph.drawio.desktop.desktop', 'Alacritty.desktop', 'org.localsend.localsend_app.desktop', 'com.rustdesk.RustDesk.desktop', 'com.bitwarden.desktop.desktop', 'org.gnome.Software.desktop', 'org.gnome.Settings.desktop']
+last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='47.0'
 
 [org/gnome/shell/app-switcher]
@@ -194,7 +236,7 @@ icon-style-type=0
 polkit-status='installed'
 
 [org/gnome/shell/extensions/caffeine]
-indicator-position-max=3
+indicator-position-max=5
 restore-state=true
 toggle-state=true
 user-enabled=true
@@ -204,8 +246,25 @@ clear-on-boot=true
 strip-text=true
 
 [org/gnome/shell/extensions/gsconnect]
+devices=['c468875a_a811_4e86_af10_975b53ce7201']
 id='b7d7c868-2753-4bff-a34d-cb30e86b1c2c'
 name='fedora'
+
+[org/gnome/shell/extensions/gsconnect/device/160ce860_c3bd_47ba_88df_85e0b745a8a2]
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://10.94.12.201:1716'
+name='Pixel Tablet'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='tablet'
+
+[org/gnome/shell/extensions/gsconnect/device/c468875a_a811_4e86_af10_975b53ce7201]
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://10.94.12.226:1716'
+name='SM-A536B'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
 
 [org/gnome/shell/extensions/just-perfection]
 support-notifier-showed-version=34
@@ -228,11 +287,12 @@ show-screenshot-ui=['<Shift><Super>s']
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1739168873
+check-timestamp=int64 1741451372
 first-run=false
-flatpak-purge-timestamp=int64 1739168806
-packagekit-historical-updates-timestamp=uint64 1738774974
-update-notification-timestamp=int64 1739109081
+flatpak-purge-timestamp=int64 1741347349
+install-timestamp=int64 1739546406
+packagekit-historical-updates-timestamp=uint64 1739546406
+update-notification-timestamp=int64 1741451444
 
 [org/gnome/system/location]
 enabled=true
@@ -264,7 +324,7 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(26, 23)
+window-position=(344, 47)
 window-size=(1231, 971)
 
 [system/locale]

@@ -5,7 +5,7 @@ TERM = "xterm-256color"
 normal = { family = "FiraCode Nerd Font", style = "Regular" }
 
 [general]
-import = [ "~/.config/alacritty/tokyonight_day.toml" ]
+import = [ "~/.config/alacritty/tokyonight_moon.toml" ]
 
 [terminal]
 shell = "nu"
