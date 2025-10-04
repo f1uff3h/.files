@@ -1,4 +1,12 @@
 return {
+  -- {
+  --   "Mofiqul/adwaita.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function()
+  --     vim.cmd.colorscheme("adwaita")
+  --   end,
+  -- },
   {
     "iamcco/markdown-preview.nvim",
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
@@ -16,6 +24,23 @@ return {
     config = function()
       vim.cmd([[do FileType]])
     end,
+  },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        gopls = {
+          settings = {
+            gopls = {
+              analyses = {
+                shadow = false,
+              },
+              usePlaceholders = false,
+            },
+          },
+        },
+      },
+    },
   },
   {
     "folke/snacks.nvim",
