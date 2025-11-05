@@ -1,0 +1,55 @@
+RED="\e[31m"
+NC="\e[0m"
+
+function deploy() {
+  if [ $# -eq 0 ]; then
+    echo -e "\033[31m[ERROR] -- No files provided for deployment!\033[0m"
+    return 1
+  fi
+
+  local files=("$@")
+  local mountPoint=$(mount | grep "/mnt/docker/compose" | awk '{print $3}')
+
+  if [ -z "${mountPoint}" ]; then
+    echo "[INFO] -- Deploy location not mounted, mounting now..."
+    mount -t
+    mount -t nfs 10.94.12.241:/mnt/docker/compose ~/mnt/
+
+    if [ $? -ne 0]; then
+      echo -e "\033[31m[ERROR] -- Could not mount deploy location!\033[0m"
+      return 1
+    fi
+  fi
+
+  for file in "${files[@]}"; do
+    echo "[INFO] -- Deploying ${file}..."
+    cp -v "${file}" "${mountPoint}"
+
+    if [ $? -ne 0 ]; then
+      echo -e "\033[31m[ERROR] -- Could not copy ${file}!\033[0m"
+      return 1
+    fi
+
+    sync
+  done
+}
+complete -f deploy
+
+function set-theme() {
+  if [ $# -eq 0 ]; then
+    echo -e "${RED}[ERROR] -- No theme provided!${NC}"
+    return 1
+  fi
+
+  case $1 in
+    "light")  sed -i 's/moon/day/' ~/.config/alacritty/alacritty.toml
+              return 0
+    ;;
+    "dark")   sed -i 's/day/moon/' ~/.config/alacritty/alacritty.toml
+              return 0
+    ;;
+    *)       echo -e "${RED}[ERROR] -- Unknow theme ${1}${NC}"
+             return 1
+    ;;
+  esac
+}
