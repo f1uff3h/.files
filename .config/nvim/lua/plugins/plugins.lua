@@ -1,12 +1,4 @@
 return {
-  -- {
-  --   "Mofiqul/adwaita.nvim",
-  --   lazy = false,
-  --   priority = 1000,
-  --   config = function()
-  --     vim.cmd.colorscheme("adwaita")
-  --   end,
-  -- },
   {
     "iamcco/markdown-preview.nvim",
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
@@ -56,9 +48,12 @@ return {
       {
         "<C-S-/>",
         function()
-          Snacks.terminal.toggle(nil, { win = { position = "float", height = 0.9, width = 0.9 } })
+          Snacks.terminal.toggle(nil, {
+            env = { SNACKS_TERM_TYPE = "float" },
+            win = { position = "float", height = 0.9, width = 0.9 },
+          })
         end,
-        desc = "Toggle Terminal",
+        desc = "Toggle Float Terminal",
       },
     },
   },

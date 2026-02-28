@@ -1,7 +1,8 @@
 RED="\e[31m"
 NC="\e[0m"
 
-function deploy() {
+# NOTE: Underscored to avoid colliding with ble.sh readonly function
+function _deploy() {
   if [ $# -eq 0 ]; then
     echo -e "\033[31m[ERROR] -- No files provided for deployment!\033[0m"
     return 1
@@ -33,7 +34,7 @@ function deploy() {
     sync
   done
 }
-complete -f deploy
+readonly -f _deploy
 
 function set-theme() {
   if [ $# -eq 0 ]; then
@@ -42,14 +43,53 @@ function set-theme() {
   fi
 
   case $1 in
-    "light")  sed -i 's/moon/day/' ~/.config/alacritty/alacritty.toml
-              return 0
+  "light")
+    sed -i 's/moon/day/' ~/.config/alacritty/alacritty.toml
+    return 0
     ;;
-    "dark")   sed -i 's/day/moon/' ~/.config/alacritty/alacritty.toml
-              return 0
+  "dark")
+    sed -i 's/day/moon/' ~/.config/alacritty/alacritty.toml
+    return 0
     ;;
-    *)       echo -e "${RED}[ERROR] -- Unknow theme ${1}${NC}"
-             return 1
+  *)
+    echo -e "${RED}[ERROR] -- Unknow theme ${1}${NC}"
+    return 1
     ;;
   esac
+}
+readonly -f set-theme
+
+function update-neovim() {
+  local bin_dir="${HOME}/bin"
+  local neovim_dir="${bin_dir}/neovim"
+
+  if [ -d "${neovim_dir}" ]; then
+    echo "[INFO] -- Removing existing neovim directory..."
+    rm -rf "${neovim_dir}"
+  fi
+
+  if [ ! -d "${bin_dir}" ]; then
+    echo "[INFO] -- Creating bin directory..."
+    mkdir -p "${bin_dir}"
+  fi
+
+  echo "[INFO] -- Cloning neovim repository..."
+  git clone https://github.com/neovim/neovim.git "${neovim_dir}"
+  cd "${neovim_dir}" || return 1
+
+  local latest_tag
+  latest_tag=$(git tag --sort=-v:refname | grep '^v' | head -n 1)
+  if [ -z "${latest_tag}" ]; then
+    echo -e "${RED}[ERROR] -- Could not find latest neovim tag!${NC}"
+    return 1
+  fi
+
+  echo "[INFO] -- Checking out latest tag: ${latest_tag}"
+  git checkout "${latest_tag}"
+
+  echo "[INFO] -- Building neovim..."
+  make CMAKE_BUILD_TYPE=RelWithDebInfo
+
+  echo "[INFO] -- Installing neovim..."
+  sudo make install
 }
